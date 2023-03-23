@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar Section */
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 100px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background: #32CD32;
+    border-radius: 4px;
+}
+
+/* Home Section */
+#home {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name {
+    text-align: center;
+}
+
+#home .name h2 {
+    margin: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+#home .name p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Skills Section */
+
+#skills {
+    color: #fff;
+    padding: 1rem;
+}
+
+#skills .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skills .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#skills .items .item:hover {
+    color: orange;
+}
+
+/* Projects Section */
+
+#projects {
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.projects .project {
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.projects .project .project-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.projects .project .project-image img {
+    border-radius: 5px;
+}
+
+.projects .project .project-image span {
+    background: orange;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.projects .project .project-info .title {
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.projects .project .project-info .description {
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+    opacity: 0.85;
+}
+
+.projects .project .project-info .developer {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.85;
+}
+
+.projects .project .project-info .rating {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.85;
+}
+
+#contact {
+    color: white;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}

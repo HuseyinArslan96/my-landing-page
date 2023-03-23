@@ -1,0 +1,23 @@
+#navbar {
+    width: 100%;
+    padding: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    height: 70px;
+}
+
+#skills .items {
+    flex-direction: column;
+}
+
+#skills .items .item {
+    width: 100%;
+}
+
+.projects .project {
+    flex-direction: column;
+}

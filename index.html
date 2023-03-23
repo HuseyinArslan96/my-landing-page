@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hüseyin ARSLAN | Yazılım Geliştirici</title>
+    <meta name="keyword" content="Python, JavaScript, HTML, CSS, T-SQL, Flask">
+    <meta name="description" content="Hüseyin ARSLAN | Yazılım Geliştirici">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css">
+    <style>
+        #home {
+            background-image: url("images/pattern.jpg");
+        }
+
+        #projects {
+            background-image: url("images/wallpaper.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-green">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Hüseyin ARSLAN</h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#projects">Projelerim</a></li>
+                    <li><a href="#skills">Becerilerim</a></li>
+                    <li><a href="#contact">İletişim Bilgilerim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="images/profile.jpg" alt="Hüseyin ARSLAN">
+        <div class="name">
+            <h2 class="heading-big">Hüseyin ARSLAN</h2>
+            <p class="text-weight">Yazılım Geliştirici</p>
+        </div>
+        <a href="projects" class="btn btn-primary">Projelerim</a>
+    </section>
+    <section id="skills" class="bg-green">
+        <h3 class="text-center heading-medium">Becerilerim</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Python</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, harum.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>HTML-CSS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, harum.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>T-SQL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, harum.</p>
+            </article>
+        </div>
+    </section>
+    <section id="projects">
+        <h3 class="text-center heading-medium">Projelerim</h3>
+        <div class="container">
+            <div class="projects">
+                <!-- Project1 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="Proje1" />
+                        <span>Python</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Ön Muhasebe
+                        </div>
+                        <div class="description"></div>
+                        Şirketler İçin Ön Muhasebe Programı
+                        <div class="developer">Hüseyin Arslan</div>
+                        <div class="rating">Olumlu</div>
+                    </div>
+                </div>
+                <!-- Project2 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="Proje2" />
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Ön Muhasebe
+                        </div>
+                        <div class="description"></div>
+                        Şirketler İçin Ön Muhasebe Programı
+                        <div class="developer">Hüseyin Arslan</div>
+                        <div class="rating">Olumlu</div>
+                    </div>
+                </div>
+                <!-- Project3 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="Proje3" />
+                        <span>Java</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Ön Muhasebe
+                        </div>
+                        <div class="description"></div>
+                        Şirketler İçin Ön Muhasebe Programı
+                        <div class="developer">Hüseyin Arslan</div>
+                        <div class="rating">Olumlu</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer id="contact" class="bg-green">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim" />
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-posta" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesajınızı Bırakın</label>
+                    <textarea name="message" id="message" class="form-control" rows="5"
+                        placeholder="Mesajınız..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
